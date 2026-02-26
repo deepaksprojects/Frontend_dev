@@ -49,3 +49,6 @@ const testCurry = curry(sum);
 console.log(testCurry(1, 2, 3));   // 6 — single call
 console.log(testCurry(1, 2)(3));   // 6 — two calls
 console.log(testCurry(1)(2)(3));   // 6 — three calls
+
+
+export {}
